@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+body {
+  background-image: url(image/background.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table {
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+tbody {
+  background-color: white;
+}
+
+td[style*="visibility: hidden;"] {
+  height: 0;
+  padding: 0;
+  border: none;
+}
+
+h1 {
+  font-family: "Kranky", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+th, td {
+  border: 9px solid black;
+}
+
+tr.f_row {
+  height: 80px;
+}
+
+th.f_one {
+  width: 40px;
+}
+
+th.f_two {
+  width: 25px;
+}
+
+th.f_three {
+  width: 16px;
+  background-color: #ffe000;
+}
+
+th.f_four {
+  width: 25px;
+}
+
+td.s_one {
+  height: 10px;
+  width: 75px;
+}
+
+tr.s_row, tr.th_row {
+  height: 112px;
+}
+
+td.s_two {
+  height: 30px;
+  background-color: red;
+}
+
+td.s_three {
+  background-color: #ffe000;
+}
+
+tr.fo_row, tr.fif_row {
+  height: 112px;
+}
+
+tr.si_row {
+  height: 116px;
+}
+
+td.si_one {
+  width: 5px;
+  background-color: black;
+}
+
+tr.sev_row {
+  height: 116px;
+}
+
+td.sev_one {
+  background-color: #ffe000;
+}
+
+td.sev_three {
+  background-color: #0707d6;
+}
+
+td.sev_four {
+  background-color: red;
+}
+
+tr.e_row {
+  height: 65px;
+}
+
+td.e_two {
+  background-color: black;
+}
+
+tr.n_row {
+  height: 50px;
+}
