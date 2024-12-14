@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+.promotion:hover [class*="item"] {
+  animation-play-state: paused;
+}
+
 [class*="item"] {
   position: absolute;
   top: 0;
