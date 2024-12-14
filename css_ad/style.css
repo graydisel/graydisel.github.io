@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.promotion {
+  position: relative;
+  margin: 20px auto;
+  width: 600px;
+  height: 300px;
+  border: 2px solid #000;
+  overflow: hidden;
+}
+
+[class*="item"] {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  width: 100%;
+  animation: moving_ads 11.2s  infinite;
+}
+
+@keyframes moving_ads {
+  0% {
+    transform: translateX(100%);
+  }
+  10%, 35% {
+    transform: translateX(-100%);
+  }
+  50%, 100% {
+    transform: translateX(-250%);
+  }
+
+
+}
+
+.smartphone__item {
+  background-image: url("./images/ad_smartphone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  animation-delay: 0s;
+}
+
+.laptop__item {
+  background-image: url("./images/ad_laptop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  animation-delay: 3.71s;
+}
+
+.computer__item {
+  background-image: url("./images/ad_computer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  animation-delay: 7.42s;
+}
