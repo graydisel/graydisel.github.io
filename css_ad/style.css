@@ -12,10 +12,6 @@
   overflow: hidden;
 }
 
-.promotion:hover [class*="item"] {
-  animation-play-state: paused;
-}
-
 [class*="item"] {
   position: absolute;
   top: 0;
@@ -23,6 +19,10 @@
   height: 100%;
   width: 100%;
   animation: moving_ads 11.2s  infinite;
+}
+
+.promotion:hover [class*="item"] {
+  animation-play-state: paused;
 }
 
 @keyframes moving_ads {
