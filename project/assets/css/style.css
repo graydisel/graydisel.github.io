@@ -187,9 +187,6 @@ main .container__process .process .process__item .video{
   margin-inline:auto;
 }
 @media screen and (max-width: 1160px){
-  .description__header, .about__header, .process__header{
-    font-size:30px;
-  }
   .description__about, .about__about, .process__about{
     font-size:14px;
     margin-inline:auto;
@@ -218,13 +215,6 @@ main .container__process .process .process__item .video{
   footer .container__footer .footer__item .footer__copyright{
     font-size:16px;
   }
-  .description__header, .about__header, .process__header{
-    font-size:30px;
-  }
-  .description__about, .about__about, .process__about{
-    font-size:14px;
-    margin-inline:auto;
-  }
   header{
     height:500px;
   }
@@ -239,6 +229,11 @@ main .container__process .process .process__item .video{
     padding-bottom:22px;
     margin:0;
     font-weight:500;
+    font-size:30px;
+  }
+  header .container__header .description .description__about{
+    font-size:14px;
+    margin-inline:auto;
   }
   header .container__header .description .description__button{
     height:55px;
@@ -252,6 +247,11 @@ main .container__process .process .process__item .video{
   }
   main .container__about .about .about__header{
     padding-top:41px;
+    font-size:30px;
+  }
+  main .container__about .about .about__about{
+    font-size:14px;
+    margin-inline:auto;
   }
   main .container__projects{
     height:260px;
@@ -285,6 +285,11 @@ main .container__process .process .process__item .video{
   }
   main .container__process .process .process__item .process__header{
     padding-top:41px;
+    font-size:30px;
+  }
+  main .container__process .process .process__item .process__about{
+    font-size:14px;
+    margin-inline:auto;
   }
   main .container__process .process .process__item .video{
     width:708px;
