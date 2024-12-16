@@ -49,6 +49,7 @@ footer{
 footer .container__footer{
   height:151px;
   max-width:1110px;
+  margin-inline:auto;
 }
 footer .container__footer .footer__item{
   margin-inline:auto;
@@ -312,7 +313,6 @@ main .container__process .process .process__item .video{
   }
   footer .container__footer{
     width:335px;
-    margin-inline:auto;
   }
   footer .container__footer .footer__item .footer__name{
     font-size:16px;
