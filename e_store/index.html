@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="src/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="mixin:flex mixin:flex-col mixin:justify-center">
+<header>
+  <nav class="nav_panel flex justify-center items-center gap-12 max-md:gap-4 py-5 max-md:px-4 px-10">
+    <div class="logo">
+      <img class="logo_image" src="src/images/icons/Logo.svg" alt="Logo">
+    </div>
+    <form class="">
+      <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+      <div class="relative">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+          </svg>
+        </div>
+        <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 rounded-lg bg-gray-100
+               focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
+               dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required>
+      </div>
+    </form>
+
+    <ul class="top_navigation flex items-center gap-12 max-md:gap-4">
+      <li><a class="active text-black" href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+    <div class="cabinet flex gap-4">
+      <a href="#"><img src="src/images/icons/Favorites.svg" alt="Favourites icon"></a>
+      <a href="#"><img src="src/images/icons/Cart.svg" alt="Cart icon"></a>
+      <a href="#"><img src="src/images/icons/User.svg" alt="User icon"></a>
+    </div>
+  </nav>
+
+  <div class="top_brand flex-1 overflow-hidden flex max-md:flex-col justify-center max-md:justify-between gap-32 max-md:gap-10 px-20 max-md:px-4 max-md:pt-5">
+    <div class="description_iphone text-white text-2xl text-opacity-40 mixin max-md:items-center">
+      <span class="font-bold">Pro.Beyond</span>
+      <p class="text-8xl max-md:text-7xl font-thin py-6">IPhone 14 <b class="font-bold">Pro</b></p>
+      <span class="text-lg ">Created to change everything for the better. For everyone</span>
+      <br>
+      <button class="btn btn_iphone text-white hover:text-black hover:bg-gray-100">Shop now</button>
+    </div>
+    <img class="iphone_photo max-md:w-1/3 max-md:mx-auto" src="src/images/Iphone_image.png" alt="iPhone 14 Pro">
+  </div>
+
+
+  <div class="bottom_brand flex max-md:flex-col gap-0">
+
+    <div class="actual flex gap-0 flex-col text-sm w-1/2 max-md:w-full">
+
+      <div class="actual_top overflow-hidden flex flex-1 max-md:flex-col gap-0 hover:bg-gray-hover hover:text-white">
+        <img class="playstation" src="src/images/PlayStation.svg" alt="Playstation 5">
+        <div class="mixin w-2/3 px-5 max-md:py-3 max-md:items-center max-md:text-center max-md:mx-auto">
+          <h2 class="text_playstation font-medium text-4xl py-3"><a class="" href="#">Playstation 5</a></h2>
+          <p class="text_playstation text-gray-9090 leading-5">Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.</p>
+        </div>
+      </div>
+
+      <div class="actual_bottom flex flex-1 max-md:flex-col gap-0">
+        <div class="airpods flex-1 flex max-md:flex-col gap-0 justify-stretch hover:bg-gray-hover hover:text-white">
+          <div class="airpods_image w-1/2 h-auto flex justify-center items-center">
+            <img class="" src="src/images/AirPods_Max.png" alt="AirPods Max">
+          </div>
+          <div class="text_airpods flex-1 mixin px-2 max-md:py-3 max-md:text-center">
+            <h2 class="text-3xl font-light py-3"><a href="#">Apple AirPods <b class="font-medium">Max</b></a></h2>
+            <p class="text-gray-9090">Computational audio. Listen, it's powerful</p>
+          </div>
+        </div>
+
+        <div class="apple_vision flex-1 flex max-md:flex-col gap-0 bg-gray-300 hover:bg-gray-hover hover:text-white">
+          <div class="flex-1 flex justify-center items-center overflow-hidden">
+            <img class="vision_image" src="src/images/Vision.svg" alt="Apple Vision Pro">
+          </div>
+          <div class="text_vision flex-1 mixin max-md:py-3 max-md:text-center">
+            <h2 class="font-light text-3xl py-3"><a href="#"> Apple <br> Vision <b class="font-medium">Pro</b></a></h2>
+            <p class="text-gray-9090">An immersive way to experience entertainment</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="macbook flex-1 flex gap-0 justify-center w-1/2 max-md:w-full">
+      <div class="description_macbook text-sm flex-1 mixin pl-8">
+        <h2 class="font-thin text-6xl py-3">MacBook <br><b>Air</b></h2>
+        <p class="text-gray-9090">
+          The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.
+        </p>
+        <button class="btn_macbook btn">Shop now</button>
+      </div>
+      <img class="macbook_img flex-1 my-auto" src="src/images/MacBook.svg" alt="MacBook Air">
+    </div>
+  </div>
+  </header>
+
+  <main class="max-md:min-w-[635px]">
+    <div class="catalogue max-md:h-auto">
+      <div class="header_catalogue flex justify-between max-md:w-[400px]">
+        <h2 class="font-medium text-2xl max-md:text-3xl">Browse By Category</h2>
+
+        <div class="arrows flex gap-3">
+          <a class=" border-2 border-gray-catalogue hover:border-black hover:border-2" href="#"><img src="src/images/icons/arrow_left.svg" alt="Arrow Left"></a>
+          <a class=" border-2 border-gray-catalogue hover:border-black hover:border-2" href="#"><img src="src/images/icons/arrow_right.svg" alt="Arrow right"></a>
+        </div>
+      </div>
+
+      <div class="flex max-md:flex-wrap max-md:w-[400px] max-md:mx-auto justify-center gap-8 mt-8">
+        <div class="item_catalogue">
+          <a href="#"><img src="src/images/catalogue_items/category_phones.svg" alt="Catalogue item - Phones"></a>
+        </div>
+        <div class="item_catalogue">
+          <a href="#"><img src="src/images/catalogue_items/category_watches.svg" alt="Catalogue item - Watches"></a>
+        </div>
+        <div class="item_catalogue">
+          <a href="#"><img src="src/images/catalogue_items/category_cameras.svg" alt="Catalogue item - Cameras"></a>
+        </div>
+        <div class="item_catalogue">
+          <a href="#"><img src="src/images/catalogue_items/category_headphones.svg" alt="Catalogue item - Headphones"></a>
+        </div>
+        <div class="item_catalogue">
+          <a href="#"><img src="src/images/catalogue_items/category_computers.svg" alt="Catalogue item - Computers"></a>
+        </div>
+        <div class="item_catalogue">
+          <a href="#"><img src="src/images/catalogue_items/category_gaming.svg" alt="Catalogue item - Gaming"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="products flex gap-0 justify-center max-md:m-w-[635px] max-md:overflow-x-scroll max-md:justify-between mixin/products:px-4 mixin/products:w-296 mixin/products:mx-auto mixin/products:max-md:text-center">
+
+      <div class="group item_product bg-gray-200 flex-1 mixin">
+        <img class="image_product" src="src/images/products_items/popular.svg" alt="Popular products">
+        <div class="mixin/products">
+          <h2 class="text-3xl max-md:text-4xl font-light mt-2.5 mb-4 group-hover:text-white">Popular Products</h2>
+          <p class="text-gray-9090 max-md:text-sm">
+            iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.
+          </p>
+          <button class="btn_products btn">Shop Now</button>
+        </div>
+      </div>
+
+      <div class="group item_product bg-gray-300 flex-1 flex mixin">
+        <img class="image_product" src="src/images/products_items/ipad_pro.png" alt="IPad Pro">
+        <div class="mixin/products">
+          <h2 class="text-3xl max-md:text-4xl font-light mt-2.5 mb-4 group-hover:text-white">Ipad Pro</h2>
+          <p class="text-gray-9090 max-md:text-sm">
+            iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.
+          </p>
+          <button class="btn_products btn">Shop Now</button>
+        </div>
+      </div>
+
+      <div class="group item_product bg-gray-200 flex-1 mixin">
+        <img class="image_product" src="src/images/products_items/galaxy_fold.png" alt="Samsung Galaxy Fold">
+        <div class="mixin/products">
+          <h2 class="text-3xl max-md:text-4xl font-light mt-2.5 mb-4 group-hover:text-white">Samsung Galaxy</h2>
+          <p class="text-gray-9090 max-md:text-sm">
+            iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.
+          </p>
+          <button class="btn_products btn">Shop Now</button>
+        </div>
+      </div>
+
+      <div class="group item_product bg-gray-300 flex-1 mixin">
+        <img class="image_product" src="src/images/products_items/macbook_pro.png" alt="Macbook Pro">
+        <div class="mixin/products">
+          <h2 class="text-3xl max-md:text-4xl font-light mt-2.5 mb-4 group-hover:text-white">Macbook Pro</h2>
+          <p class="text-gray-9090 max-md:text-sm">
+            iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.
+          </p>
+          <button class="btn_products btn">Shop Now</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="max-md:min-w-[635px] max-md:h-auto">
+    <div class="navigation_footer">
+      <div class="text-white flex max-md:flex-col max-md:items-center justify-between">
+        <div class="about">
+          <img class="max-md:mx-auto" src="src/images/icons/Logo_white.svg" alt="Logo">
+          <p class="description_about max-md:text-center max-md:mb-4 max-md:text-[13px]">
+            We are a residential interior design firm located in Portland. Our boutique-studio offers more than
+          </p>
+        </div>
+
+        <nav class="navigation_bottom flex flex-col max-md:items-center justify-start gap-2 text-white text-base">
+          <h3>Services</h3>
+          <ul class="flex flex-col justify-start gap-5 max-md:items-center max-md:gap-6 text-gray-cfcfcf text-sm max-md:text-[13px]">
+            <li><a href="#">Bonus Program</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Credit Payment</a></li>
+            <li><a href="#">Service Contracts</a></li>
+            <li><a href="#">Non-cash Account</a></li>
+            <li><a href="#">Payment</a></li>
+          </ul>
+        </nav>
+
+        <nav class="navigation_bottom flex flex-col justify-start max-md:items-center max-md:mt-4 gap-2 text-white">
+          <h3>Assistance to the buyer</h3>
+          <ul class="flex flex-col justify-start gap-5 max-md:items-center max-md:gap-6 text-gray-cfcfcf text-sm max-md:text-[13px]">
+            <li><a href="#">Find an order</a></li>
+            <li><a href="#">Terms of delivery</a></li>
+            <li><a href="#">Exchange and return of goods</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">Frequently asked questions</a></li>
+            <li><a href="#">Terms of use of the site</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="flex gap-9 mt-6 w-[173px] max-md:justify-center max-md:w-full max-md:h-8">
+        <div><a href="#"><img class="max-md:w-6 max-md:h-auto" src="src/images/icons/Twitter.svg" alt="Twitter"></a> </div>
+        <div><a href="#"><img class="max-md:w-6 max-md:h-auto" src="src/images/icons/Facebook.svg" alt="Facebook"></a> </div>
+        <div><a href="#"><img class="max-md:w-6 max-md:h-auto" src="src/images/icons/Tiktok.svg" alt="TikTok"></a> </div>
+        <div><a href="#"><img class="max-md:w-6 max-md:h-auto" src="src/images/icons/Instagram.svg" alt="Instagram"></a> </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
