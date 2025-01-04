@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Title</title>
   <link rel="stylesheet" href="src/output.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,12 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body class="mixin:flex mixin:flex-col mixin:justify-center">
-<header>
-  <nav class="nav_panel flex justify-center items-center gap-12 max-md:gap-4 py-5 max-md:px-4 px-10">
-    <div class="logo">
-      <img class="logo_image" src="src/images/icons/Logo.svg" alt="Logo">
+
+  <header class="min-w-[1440px] max-md:min-w-[635px]">
+  <nav class="flex justify-center items-center gap-12 max-md:gap-4 py-5 px-10 max-md:px-4 max-md:h-[88px]">
+    <div>
+      <img class="max-md:min-w-[65px]" src="src/images/icons/Logo.svg" alt="Logo">
     </div>
-    <form class="">
+    <form>
       <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
       <div class="relative">
         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -29,59 +30,59 @@
       </div>
     </form>
 
-    <ul class="top_navigation flex items-center gap-12 max-md:gap-4">
-      <li><a class="active text-black" href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Blog</a></li>
+    <ul class="top_navigation flex items-center gap-12 max-md:gap-4 mixin/menu:text-gray-menu mixin/menu:text-nowrap">
+      <li><a class="text-black" href="#">Home</a></li>
+      <li><a class="mixin/menu" href="#">About</a></li>
+      <li><a class="mixin/menu" href="#">Contact Us</a></li>
+      <li><a class="mixin/menu" href="#">Blog</a></li>
     </ul>
-    <div class="cabinet flex gap-4">
+    <div class="min-w-[98px] flex gap-4">
       <a href="#"><img src="src/images/icons/Favorites.svg" alt="Favourites icon"></a>
       <a href="#"><img src="src/images/icons/Cart.svg" alt="Cart icon"></a>
       <a href="#"><img src="src/images/icons/User.svg" alt="User icon"></a>
     </div>
   </nav>
 
-  <div class="top_brand flex-1 overflow-hidden flex max-md:flex-col justify-center max-md:justify-between gap-32 max-md:gap-10 px-20 max-md:px-4 max-md:pt-5">
-    <div class="description_iphone text-white text-2xl text-opacity-40 mixin max-md:items-center">
+  <div class="h-[632px] bg-[#211C24] flex-1 overflow-hidden flex max-md:flex-col justify-center max-md:justify-between gap-32 max-md:gap-10 px-20 max-md:px-4 max-md:pt-5 max-md:h-[769px]">
+    <div class="text-nowrap text-white text-2xl text-opacity-40 mixin max-md:items-center">
       <span class="font-bold">Pro.Beyond</span>
-      <p class="text-8xl max-md:text-7xl font-thin py-6">IPhone 14 <b class="font-bold">Pro</b></p>
+      <p class="text-white text-8xl max-md:text-7xl font-thin py-6">IPhone 14 <b class="font-bold">Pro</b></p>
       <span class="text-lg ">Created to change everything for the better. For everyone</span>
       <br>
       <button class="btn btn_iphone text-white hover:text-black hover:bg-gray-100">Shop now</button>
     </div>
-    <img class="iphone_photo max-md:w-1/3 max-md:mx-auto" src="src/images/Iphone_image.png" alt="iPhone 14 Pro">
+    <img class="max-md:w-1/3 max-md:mx-auto max-md:min-w-[237px]" src="src/images/Iphone_image.png" alt="iPhone 14 Pro">
   </div>
 
 
-  <div class="bottom_brand flex max-md:flex-col gap-0">
+  <div class="h-[600px] flex gap-0 max-md:flex-col max-md:h-auto">
 
     <div class="actual flex gap-0 flex-col text-sm w-1/2 max-md:w-full">
 
       <div class="actual_top overflow-hidden flex flex-1 max-md:flex-col gap-0 hover:bg-gray-hover hover:text-white">
-        <img class="playstation" src="src/images/PlayStation.svg" alt="Playstation 5">
+        <img class="h-[328px] w-auto" src="src/images/PlayStation.svg" alt="Playstation 5">
         <div class="mixin w-2/3 px-5 max-md:py-3 max-md:items-center max-md:text-center max-md:mx-auto">
-          <h2 class="text_playstation font-medium text-4xl py-3"><a class="" href="#">Playstation 5</a></h2>
-          <p class="text_playstation text-gray-9090 leading-5">Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.</p>
+          <h2 class="font-medium text-4xl py-3"><a class="" href="#">Playstation 5</a></h2>
+          <p class="w-[338px] text-gray-9090 leading-5">Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.</p>
         </div>
       </div>
 
-      <div class="actual_bottom flex flex-1 max-md:flex-col gap-0">
-        <div class="airpods flex-1 flex max-md:flex-col gap-0 justify-stretch hover:bg-gray-hover hover:text-white">
-          <div class="airpods_image w-1/2 h-auto flex justify-center items-center">
-            <img class="" src="src/images/AirPods_Max.png" alt="AirPods Max">
+      <div class="flex flex-1 max-md:flex-col gap-0">
+        <div class="bg-[#EDEDED] flex-1 flex max-md:flex-col gap-0 justify-stretch hover:bg-gray-hover hover:text-white">
+          <div class="w-1/2 h-auto flex justify-center items-center max-md:mx-auto">
+            <img src="src/images/AirPods_Max.png" alt="AirPods Max">
           </div>
-          <div class="text_airpods flex-1 mixin px-2 max-md:py-3 max-md:text-center">
+          <div class="flex-1 mixin px-2 max-md:py-3 max-md:text-center max-md:w-[343px] max-md:mx-auto">
             <h2 class="text-3xl font-light py-3"><a href="#">Apple AirPods <b class="font-medium">Max</b></a></h2>
             <p class="text-gray-9090">Computational audio. Listen, it's powerful</p>
           </div>
         </div>
 
-        <div class="apple_vision flex-1 flex max-md:flex-col gap-0 bg-gray-300 hover:bg-gray-hover hover:text-white">
+        <div class="flex-1 flex max-md:flex-col gap-0 bg-gray-300 hover:bg-gray-hover hover:text-white">
           <div class="flex-1 flex justify-center items-center overflow-hidden">
-            <img class="vision_image" src="src/images/Vision.svg" alt="Apple Vision Pro">
+            <img class="h-[190px] w-auto my-auto" src="src/images/Vision.svg" alt="Apple Vision Pro">
           </div>
-          <div class="text_vision flex-1 mixin max-md:py-3 max-md:text-center">
+          <div class="flex-1 mixin max-md:py-3 max-md:text-center max-md:w-[343px] max-md:mx-auto">
             <h2 class="font-light text-3xl py-3"><a href="#"> Apple <br> Vision <b class="font-medium">Pro</b></a></h2>
             <p class="text-gray-9090">An immersive way to experience entertainment</p>
           </div>
@@ -89,22 +90,22 @@
       </div>
     </div>
 
-    <div class="macbook flex-1 flex gap-0 justify-center w-1/2 max-md:w-full">
-      <div class="description_macbook text-sm flex-1 mixin pl-8">
+    <div class="macbook bg-[#EDEDED] flex-1 flex gap-0 justify-center w-1/2 max-md:w-full">
+      <div class="description_macbook w-[360px] text-sm flex-1 mixin pl-8">
         <h2 class="font-thin text-6xl py-3">MacBook <br><b>Air</b></h2>
         <p class="text-gray-9090">
           The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.
         </p>
-        <button class="btn_macbook btn">Shop now</button>
+        <button class="btn border-black hover:bg-black hover:text-white">Shop now</button>
       </div>
-      <img class="macbook_img flex-1 my-auto" src="src/images/MacBook.svg" alt="MacBook Air">
+      <img class="macbook_img h-[500px] w-auto flex-1 my-auto" src="src/images/MacBook.svg" alt="MacBook Air">
     </div>
   </div>
   </header>
 
-  <main class="max-md:min-w-[635px]">
-    <div class="catalogue max-md:h-auto">
-      <div class="header_catalogue flex justify-between max-md:w-[400px]">
+  <main class="min-w-[1440px] max-md:min-w-[635px]">
+    <div class="catalogue h-[352px] bg-[#FAFAFA] px-2.5 py-20 max-md:h-auto max-md:py-10">
+      <div class="header_catalogue w-[1120px] mx-auto flex justify-between max-md:w-[400px]">
         <h2 class="font-medium text-2xl max-md:text-3xl">Browse By Category</h2>
 
         <div class="arrows flex gap-3">
@@ -136,7 +137,7 @@
     </div>
 
 
-    <div class="products flex gap-0 justify-center max-md:m-w-[635px] max-md:overflow-x-scroll max-md:justify-between mixin/products:px-4 mixin/products:w-296 mixin/products:mx-auto mixin/products:max-md:text-center">
+    <div class="products h-[640px] flex gap-0 justify-center max-md:m-w-[635px] max-md:overflow-x-scroll max-md:justify-between mixin/products:px-4 mixin/products:w-296 mixin/products:mx-auto mixin/products:max-md:text-center">
 
       <div class="group item_product bg-gray-200 flex-1 mixin">
         <img class="image_product" src="src/images/products_items/popular.svg" alt="Popular products">
@@ -185,12 +186,12 @@
     </div>
   </main>
 
-  <footer class="max-md:min-w-[635px] max-md:h-auto">
-    <div class="navigation_footer">
+  <footer class="min-w-[1440px] h-[504px] bg-black max-md:min-w-[635px] max-md:h-auto">
+    <div class="navigation_footer w-[1120px] px-2.5 py-[104px] mx-auto max-md:w-[311px] max-md:py-[52px]">
       <div class="text-white flex max-md:flex-col max-md:items-center justify-between">
         <div class="about">
           <img class="max-md:mx-auto" src="src/images/icons/Logo_white.svg" alt="Logo">
-          <p class="description_about max-md:text-center max-md:mb-4 max-md:text-[13px]">
+          <p class="description_about mt-6 w-[384px] text-[#CFCFCF] text-sm leading-relaxed max-md:text-center max-md:mb-4 max-md:text-[13px]">
             We are a residential interior design firm located in Portland. Our boutique-studio offers more than
           </p>
         </div>
