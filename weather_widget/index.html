@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regular Expressions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="weather" class="weather-block">
+    <form class="weather-form" action="">
+        <div class="weather-input">
+            <label for="city-name">Name of city</label>
+            <input type="text" name="city-name" id="city-name" placeholder="Enter city name">
+            <button id="submit" type="button" class="weather-button">Submit</button>
+        </div>
+        <p id="loading" class="hidden">Loading, please wait...</p>
+    </form>
+
+    <div id="weather-information" class="hidden">
+        <h2 class="weather-header">Weather information</h2>
+        <div class="weather-main">
+            <h3 id="city"></h3>
+            <div>
+                <img id="weather-icon" src="" alt="Weather Icon">
+            </div>
+            <div class="weather-temp">
+                <p id="temperature"></p>
+            </div>
+        </div>
+        <div id="weather-details">
+            <div class="pressure-weather">
+                <h3 class="accordion">Pressure</h3>
+                <div class="panel">
+                    <p id="pressure"></p>
+                </div>
+            </div>
+            <div class="humidity-weather">
+                <h3 class="accordion">Humidity</h3>
+                <div class="panel">
+                    <p id="humidity"></p>
+                </div>
+            </div>
+            <div class="speed-weather">
+                <h3 class="accordion">Wind Speed</h3>
+                <div class="panel">
+                    <p id="wind-speed"></p>
+                </div>
+            </div>
+            <div class="direction-weather">
+                <h3 class="accordion">Direction in degrees</h3>
+                <div class="panel">
+                    <p id="wind-direction"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
