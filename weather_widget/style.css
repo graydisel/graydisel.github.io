@@ -59,10 +59,9 @@ body {
 }
 
 .weather-main {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin-block: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-block: 10px;
 }
 
 #temperature {
@@ -73,10 +72,21 @@ body {
 }
 
 #city {
+    grid-row: 1 / span 2;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+}
+
+#weather-icon {
+    display: block;
+    margin-inline: auto;
+}
+
+.weather-details-header {
+    text-align: center;
+    padding-block: 10px ;
 }
 
 #weather-details {
@@ -85,10 +95,10 @@ body {
     font-size: 14px;
     column-gap: 20px;
     row-gap: 20px;
+    padding-block-start: 10px;
 }
 
 .accordion {
-    padding-inline: 5px;
     cursor: pointer;
     border-radius: 6px;
     transition: 0.4s;
