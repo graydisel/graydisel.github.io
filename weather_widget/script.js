@@ -35,7 +35,7 @@ async function getWeatherData(city) {
     document.getElementById('weather-information').classList.add('hidden');
 
     const input = city.toUpperCase().replace(' ', '%20');
-    const linkApi = `http://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&APPID=5d066958a60d315387d9492393935c19`;
+    const linkApi = `https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&APPID=5d066958a60d315387d9492393935c19`;
 
     try {
         const data = await fetch(linkApi).then(res => {
@@ -48,7 +48,7 @@ async function getWeatherData(city) {
         });
 
         weatherInfoElem.classList.remove('hidden');
-        weatherIcon.src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`
+        weatherIcon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`
         weatherTempElem.innerHTML = data.main.temp + '&deg;C';
         cityNameElem.innerHTML = data.name;
         pressureElem.innerHTML = data.main.pressure;
