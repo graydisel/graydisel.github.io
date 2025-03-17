@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OMDb Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="logo">
+    <img src="images/logo/omdb_search.svg" alt="Website logo">
+</div>
+<div class="form-container">
+    <form method="get" action="" class="search-form">
+      <label class="search-label">Enter name of movie:
+              <input type="search" name="searchText" id="searchText" placeholder="Movie name">
+              <button type="button" id="searchButton">&#x1F50E;&#xFE0E;</button>
+      </label>
+    </form>
+</div>
+<div id="error-container">
+</div>
+<div id="results-container" class="hidden">
+
+
+</div>
+
+<script type="module" src="scripts/script.js"></script>
+</body>
+</html>
