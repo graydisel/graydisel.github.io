@@ -339,7 +339,7 @@ select {
 }
 
 /*
-1. Correct the inability to style clickable types in iOS and Safari.
+1. Correct the inability to scss clickable types in iOS and Safari.
 2. Remove default button styles.
 */
 
@@ -356,7 +356,7 @@ input:where([type='submit']) {
 }
 
 /*
-Use the modern Firefox focus style for all focusable elements.
+Use the modern Firefox focus scss for all focusable elements.
 */
 
 :-moz-focusring {
@@ -380,7 +380,7 @@ progress {
 }
 
 /*
-Correct the cursor style of increment and decrement buttons in Safari.
+Correct the cursor scss of increment and decrement buttons in Safari.
 */
 
 ::-webkit-inner-spin-button,
@@ -390,7 +390,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 /*
 1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari.
+2. Correct the outline scss in Safari.
 */
 
 [type='search'] {
@@ -409,7 +409,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 }
 
 /*
-1. Correct the inability to style clickable types in iOS and Safari.
+1. Correct the inability to scss clickable types in iOS and Safari.
 2. Change font properties to `inherit` in Safari.
 */
 
