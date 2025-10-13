@@ -10,7 +10,8 @@ body {
 }
 
 .portfolio-list {
-    width: 400px;
+    min-width: 400px;
+    max-width: 600px;
     background: #ffffff;
     border-radius: 8px;
     text-align: center;
@@ -35,6 +36,14 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .portfolio-list {
+        min-width: 300px;
+    }
+
     .portfolio-list a {
         font-size: 20px;
     }
