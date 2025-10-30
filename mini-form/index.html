@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+  <form class="max-w-xs mx-auto flex flex-col py-7 px-6 bg-white shadow-2xl rounded-xl">
+    <h2 class="text-xl text-primary font-bold text-center mb-5 pb-3 border-b border-gray-200">
+      Free Quick Quote
+    </h2>
+    <h5 class="uppercase text-primary text-xs pb-2 font-semibold">Origin of shipment</h5>
+    <div class="flex items-center justify-center gap-2">
+      <div class="flex">
+        <input class="peer hidden" type="radio" id="continental-us" name="origin">
+        <label for="continental-us" class="py-1 px-3 rounded-md border text-primary border-primary
+          bg-white cursor-pointer hover:shadow-md transition duration-700 peer-checked:bg-secondary">Continental US
+        </label>
+      </div>
+
+      <div class="flex flex-2">
+        <input class="peer hidden" type="radio" id="hawaii" name="origin" checked>
+        <label for="hawaii" class="flex-2 py-1 px-3 text-primary rounded-md border border-primary text-center bg-white
+          cursor-pointer hover:shadow-md transition duration-700 peer-checked:bg-secondary">Hawaii
+        </label>
+      </div>
+    </div>
+
+    <div class="py-2 flex">
+      <select class="px-2 py-1 flex-1 text-primary rounded-md border border-primary
+      cursor-pointer hover:bg-gray-100 transition-colors duration-700" name="place" id="place">
+        <option value="honolulu" selected>Honolulu</option>
+        <option value="garza">Garza</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <h5 class="pt-3 uppercase text-primary text-xs pb-2 font-semibold">Destination</h5>
+    <div class="flex items-center justify-center gap-2">
+      <div class="flex">
+        <input class="peer hidden" type="radio" id="port" name="destination">
+        <label for="port" class="py-1 px-3 rounded-md border text-primary border-primary
+          bg-white cursor-pointer hover:shadow-md transition duration-700 peer-checked:bg-secondary">Port Dropoff
+        </label>
+      </div>
+
+      <div class="flex flex-2">
+        <input class="peer hidden" type="radio" id="residential" name="destination" checked>
+        <label for="residential" class="flex-2 py-1 px-1 text-primary rounded-md border border-primary text-center bg-white
+          cursor-pointer hover:shadow-md transition duration-700 peer-checked:bg-secondary">Residential Pickup
+        </label>
+      </div>
+    </div>
+
+    <input type="text" id="address" name="address" placeholder="Enter City or Zip"
+    class="my-3 px-2 py-1 rounded-md border border-primary hover:shadow-md transition duration-700">
+
+    <div class="pb-2 flex flex-col">
+      <label for="date" class="pt-3 uppercase text-primary text-xs font-semibold">Shipment Date</label>
+      <input type="date" id="date" name="date"
+             class="form-input my-2 px-2 py-1 rounded-md border border-primary text-center
+             focus:ring-blue-500 focus:border-blue-500 hover:shadow-md transition duration-700">
+    </div>
+    <button type="submit"
+            class="py-1 bg-primary rounded-[4px] text-sm text-white cursor-pointer hover:bg-primary-hover transition duration-600">
+      Next
+    </button>
+  </form>
+</body>
+</html>
