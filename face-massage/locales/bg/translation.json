@@ -1,0 +1,68 @@
+{
+  "hero_heading": "Подмаляване без инжекции. Чрез докосване до естествената красота",
+  "navigation": {
+    "home": "Главната",
+    "about": "За мен",
+    "target": "Моите цели",
+    "directions": "Посоки",
+    "procedures": "Процедури",
+    "home_cosmetics": "Домашна козметика",
+    "courses": "Курсове",
+    "reviews": "Отзиви",
+    "info": "Информация",
+    "contacts": "Контакти"
+  },
+  "appoint_btn": {
+    "long": "Запишете си за процедурата",
+    "short": "Запис"
+  },
+  "courses_btn": {
+    "long": "Запишете си за курсове",
+    "short": "Курсове"
+  },
+  "about": {
+    "header": "За мен",
+    "text": ""
+  },
+  "directions": {
+    "title": "Основните ми цели и насоки",
+    "proceduresTitle": "Процедури",
+    "proceduresText": "Процедури за подмладяване.\nЛечение на дерматози.\nАкне\nРозацея\nСебореен дерматит\nПериорален дерматит",
+    "proceduresButton": "Повече за процедурите",
+    "homeCosmeticsTitle": "Избор на домашна козметика",
+    "homeCosmeticsText": "Цел: естествено подмладяване, релаксация, възстановяване на тонуса и симетрията на лицето, здрава, сияйна кожа.",
+    "homeCosmeticsButton": "Повече за козметика",
+    "coursesTitle": "Курсове за обучение",
+    "coursesText": "4-дневен курс за миолифтинг масаж на лице\nТеория + практика\nВключва ръководство с видео уроци и QR кодове.\nЦена: ",
+    "coursesPrice": "850€",
+    "coursesButton": "Повече за курсовете"
+  },
+  "procedures": {
+    "title": "Процедури",
+    "table": {
+      "name": "Име на процедурата",
+      "description": "Описание"
+    },
+    "name": {
+      "face-massage": "Face Massage",
+      "face-cleaning": "Face Cleaning",
+      "skin-care": "Skin care according to skin type",
+      "royal-care": "Royal Care",
+      "peeling": "Peeling"
+    },
+    "description": {
+      "face-massage": "A rejuvenation procedure aims to restore a youthful appearance by treating signs of aging, such as wrinkles, sunspots, and sagging skin. Common rejuvenation procedures include non-surgical options like chemical peels, laser skin resurfacing, and dermal fillers, as well as surgical interventions such as facelifts. The best procedure depends on the individual's specific concerns, ranging from minimally invasive to more extensive surgical techniques.",
+      "face-cleaning": "Treatment for dermatosis involves several procedures, including topical corticosteroid creams, regular moisturizing, and identifying/avoiding triggers. Other options include oral medications like antihistamines or antibiotics, and in more severe cases, phototherapy or systemic immunosuppressants. A doctor can provide a specific treatment plan, which may include procedures like laser or surgical removal in certain instances.",
+      "skin-care": "Skin care according to skin type",
+      "royal-care": "Royal Care",
+      "peeling": "Peeling"
+    }
+  },
+  "cosmetics": {
+    "title": "Избор на козметика за домашна грижа",
+    "subtitle": "“Професионално подбирам козметика за домашна грижа, за да поддържам резултатите от процедурите и да запазя младостта на вашата кожа.”",
+    "information":"След процедура за подмладяване на лицето е важно да не спираме до постигнатия резултат – именно тогава кожата е най-възприемчива към правилната грижа. Домашната козметика, подбрана според типа кожа и особеностите след миолифтинг, помага да се запази ефектът, да се поддържа тонусът на мускулите и да се удължи младостта на лицето. Продуктите с пептиди, антиоксиданти и хидратиращи съставки подсилват действието на процедурата и предотвратяват появата на нови признаци на стареене. Този цялостен подход – професионална грижа, комбинирана с правилна домашна поддръжка – поддържа кожата свежа, стегната и сияйна за дълго време.",
+    "text": "След консултация създавам персонализиран режим за грижа за кожата, като вземам предвид състоянието на вашата кожа, начин на живот и сезона. Избирам само доказани марки, които са нежни и ефективни.",
+    "btn": "Запишете се за избор на продукт"
+  }
+}

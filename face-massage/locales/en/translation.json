@@ -1,0 +1,64 @@
+{
+  "hero_heading": "Rejuvenation without injections, through touching natural beauty.",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "target": "Targets",
+    "directions": "Directions",
+    "procedures": "Procedures",
+    "home_cosmetics": "Home cosmetics",
+    "courses": "Courses",
+    "reviews": "Reviews",
+    "info": "Information",
+    "contacts": "Contacts"
+  },
+  "appoint_btn": {
+    "long": "Book Appointment",
+    "short": "Book"
+  },
+  "courses_btn": {
+    "long": "Sign up for courses",
+    "short": "Courses"
+  },
+  "about": {
+    "header": "About me",
+    "text": ""
+  },
+  "directions": {
+    "title": "My main targets and directions",
+    "proceduresTitle": "Procedures",
+    "proceduresText": "Rejuvenation procedures.\nTreatment of dermatoses.\nAcne\nRosacea\nSeborrheic dermatitis\nPerioral dermatitis",
+    "proceduresButton": "Procedures details",
+    "homeCosmeticsTitle": "Selection of home cosmetics",
+    "homeCosmeticsText": "Goal: natural rejuvenation, relaxation, restoration of tone and symmetry of the face, healthy, radiant skin.",
+    "homeCosmeticsButton": "More about cosmetics",
+    "coursesTitle": "Studying courses",
+    "coursesText": "4-day course myolifting facial massage.\nTheory + practice.\nManual with video lessons and QR-codes.\nPrice: ",
+    "coursesPrice": "850€",
+    "coursesButton": "Course details"
+  },
+  "procedures": {
+    "title": "Procedures",
+    "name": {
+      "face-massage": "Face Massage",
+      "face-cleaning": "Face Cleaning",
+      "skin-care": "Skin care according to skin type",
+      "royal-care": "Royal Care",
+      "peeling": "Peeling"
+    },
+    "description": {
+      "face-massage": "A rejuvenation procedure aims to restore a youthful appearance.",
+      "face-cleaning": "Treatment for dermatosis involves several procedures.",
+      "skin-care": "Skin care according to skin type",
+      "royal-care": "Royal Care",
+      "peeling": "Peeling"
+    }
+  },
+  "cosmetics": {
+    "title": "Selection of home care cosmetics",
+    "subtitle": "“I professionally select cosmetics for home care to maintain the results of treatments and preserve the youthfulness of your skin”",
+    "information": "After a facial rejuvenation procedure, it’s important not to stop at the achieved result — this is the moment when your skin is most receptive to proper care. Home skincare products, carefully selected according to your skin type and post-myolifting needs, help to maintain the effect, support muscle tone, and prolong the youthful appearance of your face. Products containing peptides, antioxidants, and moisturizing ingredients enhance the procedure’s benefits and help prevent new signs of aging. This comprehensive approach — professional treatment combined with well-chosen home care — keeps your skin naturally fresh, firm, and radiant for a long time.",
+    "text": "After a consultation, I create a personalized skincare regimen, taking into account your skin condition, lifestyle, and the season. I select only proven brands that are gentle and effective.",
+    "btn": "Appoint for skincare selection"
+  }
+}

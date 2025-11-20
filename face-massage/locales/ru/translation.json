@@ -1,0 +1,68 @@
+{
+  "hero_heading": "Омоложение без инъекций. Через прикосновение к естественной красоте.",
+  "navigation": {
+    "home": "Главная",
+    "about": "Обо мне",
+    "target": "Мои цели",
+    "directions": "Направления",
+    "procedures": "Процедуры",
+    "home_cosmetics": "Домашняя косметика",
+    "courses": "Курсы",
+    "reviews": "Отзывы",
+    "info": "Информация",
+    "contacts": "Связь"
+  },
+  "appoint_btn": {
+    "long": "Записаться на процедуру",
+    "short": "Записаться"
+  },
+  "courses_btn": {
+    "long": "Записаться на курсы",
+    "short": "Курсы"
+  },
+  "about": {
+    "header": "Обо мне",
+    "text": ""
+  },
+  "directions": {
+    "title": "Мои основные цели и направления",
+    "proceduresTitle": "Процедуры",
+    "proceduresText": "Процедуры для омоложения. \n Лечение дерматозов.\nАкне\nРозацеа\nСеборейный дерматит\nПериоральный дерматит",
+    "proceduresButton": "Подробнее о процедурах",
+    "homeCosmeticsTitle": "Выбор домашней косметики",
+    "homeCosmeticsText": "Цель: естественное омоложение, расслабление, восстановление тонуса и симметрии лица, здоровая, сияющая кожа.",
+    "homeCosmeticsButton": "Подробнее о косметике",
+    "coursesTitle": "Обучающие курсы",
+    "coursesText": "4-дневный курс миолифтингового массажа лица.\nТеория + практика.\nМетодичка с видеоуроками и QR-кодами.\nСтоимость: ",
+    "coursesPrice": "850€",
+    "coursesButton": "Узнать о курсе"
+  },
+  "procedures": {
+    "title": "Процедуры",
+    "table": {
+      "name": "Название процедуры",
+      "description": "Описание"
+    },
+    "name": {
+      "face-massage": "Face Massage",
+      "face-cleaning": "Face Cleaning",
+      "skin-care": "Skin care according to skin type",
+      "royal-care": "Royal Care",
+      "peeling": "Peeling"
+    },
+    "description": {
+      "face-massage": "A rejuvenation procedure aims to restore a youthful appearance by treating signs of aging, such as wrinkles, sunspots, and sagging skin. Common rejuvenation procedures include non-surgical options like chemical peels, laser skin resurfacing, and dermal fillers, as well as surgical interventions such as facelifts. The best procedure depends on the individual's specific concerns, ranging from minimally invasive to more extensive surgical techniques.",
+      "face-cleaning": "Treatment for dermatosis involves several procedures, including topical corticosteroid creams, regular moisturizing, and identifying/avoiding triggers. Other options include oral medications like antihistamines or antibiotics, and in more severe cases, phototherapy or systemic immunosuppressants. A doctor can provide a specific treatment plan, which may include procedures like laser or surgical removal in certain instances.",
+      "skin-care": "Skin care according to skin type",
+      "royal-care": "Royal Care",
+      "peeling": "Peeling"
+    }
+  },
+  "cosmetics": {
+    "title": "Подбор косметики для домашнего ухода",
+    "subtitle": "“Профессионально подбираю косметику для домашнего ухода, чтобы поддерживать эффект процедур и сохранить молодость кожи.”",
+    "information": "После процедуры омоложения лица важно не останавливаться на достигнутом результате — именно в этот момент кожа особенно восприимчива к правильному уходу. Домашняя косметика, подобранная с учётом вашего типа кожи и особенностей после миолифтинга, помогает закрепить эффект, поддержать тонус мышц и продлить молодость лица. Средства с пептидами, антиоксидантами и увлажняющими компонентами усиливают действие процедуры и предотвращают появление новых признаков старения. Такой комплексный подход — профессиональный уход + грамотная домашняя поддержка — позволяет сохранить естественную свежесть и сияние кожи надолго.",
+    "text": "После консультации я составляю индивидуальную схему ухода, учитывая состояние кожи, образ жизни и сезон. Подбираю только проверенные бренды, которые работают мягко и эффективно.",
+    "btn": "Записаться на подбор ухода"
+  }
+}
