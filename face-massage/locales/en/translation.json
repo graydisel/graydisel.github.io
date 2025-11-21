@@ -52,12 +52,13 @@
       "skin-care": "Skin care according to skin type",
       "royal-care": "Royal Care",
       "peeling": "Peeling"
-    }
+    },
+    "btn": "Book a procedure"
   },
   "cosmetics": {
     "title": "Selection of home care cosmetics",
     "subtitle": "“I professionally select cosmetics for home care to maintain the results of treatments and preserve the youthfulness of your skin”",
-    "information": "After a facial rejuvenation procedure, it’s important not to stop at the achieved result — this is the moment when your skin is most receptive to proper care. Home skincare products, carefully selected according to your skin type and post-myolifting needs, help to maintain the effect, support muscle tone, and prolong the youthful appearance of your face. Products containing peptides, antioxidants, and moisturizing ingredients enhance the procedure’s benefits and help prevent new signs of aging. This comprehensive approach — professional treatment combined with well-chosen home care — keeps your skin naturally fresh, firm, and radiant for a long time.",
+    "information": "After a facial rejuvenation procedure, it’s important not to stop at the achieved result — this is the moment when your skin is most receptive to proper care. Home skincare products, carefully selected according to your skin type and post-myolifting needs, help to maintain the effect, support muscle tone, and prolong the youthful appearance of your face.",
     "text": "After a consultation, I create a personalized skincare regimen, taking into account your skin condition, lifestyle, and the season. I select only proven brands that are gentle and effective.",
     "btn": "Appoint for skincare selection"
   }
