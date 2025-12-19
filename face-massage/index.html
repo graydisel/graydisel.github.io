@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <script type="module" crossorigin src="./assets/index-CJOwKvMq.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index--MttCUdP.css">
+    <script type="module" crossorigin src="./assets/index-BzojN9Do.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-FbRqExBU.css">
   </head>
   <body class="">
   <header class="sticky-top bg-primary">
@@ -74,11 +74,11 @@
   <section id="hero" class="hero bg-secondary px-3 px-md-4 py-5 mb-md-5">
     <div class="hero-container pt-lg-4 pt-xxl-5 pb-md-5 d-flex flex-column flex-md-row gap-2 gap-md-4 gap-lg-5 align-items-center justify-content-md-center">
       <div class="px-3">
-        <div id="carouselExampleIndicators" class="hero-carousel carousel slide rounded" data-bs-ride="carousel">
+        <div id="heroSlide" class="hero-carousel carousel slide rounded" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#heroSlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroSlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroSlide" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner rounded">
             <div class="carousel-item active" data-bs-interval="7000">
@@ -246,25 +246,144 @@
   <section id="courses" class="courses py-4 px-2 px-md-5 px-sm-4 text-center to-animate">
     <h2 class="courses-header pb-3 px-2 pt-xl-3 text-dark fs-c-header fw-bold to-animate text-b-shadow rounded" data-i18n="courses.title"></h2>
     <div class="courses-container container-xl d-xl-flex flex-xl-column justify-content-xl-center">
-      <div class="">
-        <div class="courses-description row rounded py-3 pt-md-4 px-3 mx-0 shadow-lg">
-          <div class="courses-item-left col-md-6">
-            <p data-i18n="courses.description1" class="m-0 h-100 py-3"></p>
+        <div class="courses-description rounded py-3 pt-md-4 px-3 mx-0 shadow-lg">
+          <div class="row p-xl-4">
+            <div class="courses-item-left col-md-6">
+              <p data-i18n="courses.description1" class="m-0 h-100 py-3"></p>
+            </div>
+            <div class="courses-item-right col-md-6">
+              <p data-i18n="courses.description2" class="m-0 h-100 py-3"></p>
+            </div>
+            <div class="courses-item-left item-bottom col-md-6">
+              <p data-i18n="courses.description3" class="m-0 h-100 py-3"></p>
+            </div>
+            <div class="courses-item-right item-bottom col-md-6">
+              <p data-i18n="courses.description4" class="m-0 h-100 py-3"></p>
+            </div>
           </div>
-          <div class="courses-item-right col-md-6">
-            <p data-i18n="courses.description2" class="m-0 h-100 py-3"></p>
-          </div>
-          <div class="courses-item-left item-bottom col-md-6">
-            <p data-i18n="courses.description3" class="m-0 h-100 py-3"></p>
-          </div>
-          <div class="courses-item-right item-bottom col-md-6">
-            <p data-i18n="courses.description4" class="m-0 h-100 py-3"></p>
-          </div>
-          <div class="courses-item-bottom col-md-12 my-3 mt-md-4">
-            <p data-i18n="courses.description5" class="py-3 my-0"></p>
+          <div class="courses-item-bottom my-3 mt-md-4">
+            <p data-i18n="courses.description5" class="py-3 px-2 my-0"></p>
             <img src="./images/courses/certificate1.svg" alt="Certificate image" class="certificate-image img-fluid d-block mx-auto w-50">
             <a href="#" class="btn btn-dark my-3" data-i18n="courses.btn"></a>
           </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews px-3 px-sm-4 py-4">
+    <h2 data-i18n="reviews.title" class="py-md-4 text-dark text-center fs-c-header fw-bold text-b-shadow to-animate"></h2>
+    <div class="row pt-3 gap-5 gap-md-0 row-gap-md-3 align-items-center justify-content-center to-animate">
+
+      <h3 data-i18n="reviews.before-after.title" class="fs-c-h3 text-center py-2 col-md-6"></h3>
+
+
+      <div class="col-12 col-md-6">
+        <div id="beforeAfter" class="carousel slide mx-auto shadow-sm" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="./images/reviews/before-after1.png" class="d-block w-100" alt="Photo of Before and After">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./images/reviews/before-after2.png" class="d-block w-100" alt="Photo of Before and After">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./images/reviews/before-after3.jpg" class="d-block w-100" alt="Photo of Before and After">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./images/reviews/before-after4.jpg" class="d-block w-100" alt="Photo of Before and After">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#beforeAfter" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#beforeAfter" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <h3 data-i18n="reviews.client-reviews.title" class="fs-c-h3 order-md-3 text-center pb-2 col-md-6"></h3>
+
+      <div class="col-12 col-md-6">
+        <div id="proceduresReview" class="carousel rounded slide mx-auto d-flex" data-bs-ride="carousel">
+          <button class="carousel-custom-button carousel" type="button" data-bs-target="#proceduresReview" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="card border-dark">
+                <div class="card-header bg-transparent border-dark text-b-shadow d-flex align-items-center gap-3">
+                  <img src="./images/reviews/users/user1.jpg" alt="User image" class="user-image rounded-circle w-25 d-block">
+                  <p data-i18n="reviews.client-reviews.client1.name" class="text-b-shadow m-0"></p>
+                </div>
+                <div class="card-body custom-card-height text-dark-emphasis">
+                  <p data-i18n="reviews.client-reviews.client1.review" class="card-text"></p>
+                </div>
+                <div data-i18n="reviews.client-reviews.client1.procedure" class="card-footer bg-transparent border-dark">Footer</div>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="card border-dark">
+                <div class="card-header bg-transparent border-dark text-b-shadow d-flex align-items-center gap-3">
+                  <img src="./images/reviews/users/user2.jpg" alt="User image" class="user-image rounded-circle w-25 d-block">
+                  <p data-i18n="reviews.client-reviews.client2.name" class="text-b-shadow m-0"></p>
+                </div>
+                <div class="card-body custom-card-height text-dark-emphasis">
+                  <p data-i18n="reviews.client-reviews.client2.review" class="card-text"></p>
+                </div>
+                <div data-i18n="reviews.client-reviews.client2.procedure" class="card-footer bg-transparent border-dark">Footer</div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card border-dark">
+                <div class="card-header bg-transparent border-dark text-b-shadow d-flex align-items-center gap-3">
+                  <img src="./images/reviews/users/user3.jpg" alt="User image" class="user-image rounded-circle w-25 d-block">
+                  <p data-i18n="reviews.client-reviews.client3.name" class="text-b-shadow m-0"></p>
+                </div>
+                <div class="card-body custom-card-height text-dark-emphasis">
+                  <p data-i18n="reviews.client-reviews.client3.review" class="card-text"></p>
+                </div>
+                <div data-i18n="reviews.client-reviews.client3.procedure" class="card-footer bg-transparent border-dark">Footer</div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card border-dark">
+                <div class="card-header bg-transparent border-dark text-b-shadow d-flex align-items-center gap-3">
+                  <img src="./images/reviews/users/user4.jpg" alt="User image" class="user-image rounded-circle w-25 d-block">
+                  <p data-i18n="reviews.client-reviews.client4.name" class="text-b-shadow m-0"></p>
+                </div>
+                <div class="card-body custom-card-height text-dark-emphasis">
+                  <p data-i18n="reviews.client-reviews.client4.review" class="card-text"></p>
+                </div>
+                <div data-i18n="reviews.client-reviews.client4.procedure" class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card border-dark">
+                <div class="card-header bg-transparent border-dark text-b-shadow d-flex align-items-center gap-3">
+                  <img src="./images/reviews/users/user5.jpg" alt="User image" class="user-image rounded-circle w-25 d-block">
+                  <p data-i18n="reviews.client-reviews.client5.name" class="text-b-shadow m-0"></p>
+                </div>
+                <div class="card-body custom-card-height text-dark-emphasis">
+                  <p data-i18n="reviews.client-reviews.client5.review" class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+                <div data-i18n="reviews.client-reviews.client5.procedure" class="card-footer bg-transparent border-dark">Footer</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-custom-button" type="button" data-bs-target="#proceduresReview" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>

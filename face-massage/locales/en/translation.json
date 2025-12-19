@@ -70,5 +70,39 @@
     "description4": "After courses a become master can work with clients independently.",
     "description5": "After finishing of the courses apprentice will receive a Certificate of completion",
     "btn": "Apply for Courses"
+  },
+  "reviews": {
+    "title": "Results and Reviews",
+    "before-after": {
+      "title": "Before and After Results"
+    },
+    "client-reviews": {
+      "title": "Reviews of the clients",
+      "client1": {
+        "name": "Mark J. (@MuscleRelief)",
+        "procedure": "Deep Tissue Massage",
+        "review": "\"Absolutely fantastic! I've been struggling with chronic shoulder pain, and the therapist applied the perfect pressure. I felt immediate relief and much better mobility the next day. The best deep tissue I've ever had. Highly recommend for athletes or anyone with stubborn knots.\""
+      },
+      "client2": {
+        "name": "Sarah P. (@SpaSeeker_S)",
+        "procedure": "Signature Hydrating Facial",
+        "review": "\"My skin was incredibly dry and dull before this treatment. The Hydrating Facial left my complexion glowing and plump! The entire experience was luxurious and relaxing. The aesthetician gave me great tips for my home routine too. My new go-to for skin rejuvenation.\""
+      },
+      "client3": {
+        "name": "Robert A. (@ZenRob)",
+        "procedure": "Signature Hydrating Facial",
+        "review": "\"A wonderful, cozy experience, especially on a cold day. The heat from the hot stones was amazing for melting away tension in my lower back. The relaxation was instant. I wish the session was a bit longer, but the quality of the massage was excellent.\""
+      },
+      "client4": {
+        "name": "Chloe L. (@Chloe_GlowUp)",
+        "procedure": "Signature Hydrating Facial",
+        "review": "\"Very impressed with the cleanliness and professionalism. The extractions were done gently and effectively. My skin looked immediately clearer and less congested. No excessive redness, which is a huge plus! A perfect, straightforward deep clean.\""
+      },
+      "client5": {
+        "name": "Jessica H. (@BlissfulJess)",
+        "procedure": "Deep Tissue Massage",
+        "review": "\"If you need to truly unwind, book the Swedish Massage here. It was the most peaceful and calming hour. The music, the aroma, and the smooth, flowing technique of the therapist made me almost fall asleep! I left feeling completely de-stressed and rejuvenated. 10/10 for pure relaxation.\""
+      }
+    }
   }
 }
