@@ -44,18 +44,18 @@
       "description": "Описание"
     },
     "name": {
-      "face-massage": "Face Massage",
-      "face-cleaning": "Face Cleaning",
-      "skin-care": "Skin care according to skin type",
-      "royal-care": "Royal Care",
-      "peeling": "Peeling"
+      "face-massage": "Масаж на лицето",
+      "face-cleaning": "Почистване на лицето",
+      "skin-care": "Грижа за кожата според типа кожа",
+      "royal-care": "Кралска грижа",
+      "peeling": "Пилинг"
     },
     "description": {
-      "face-massage": "A rejuvenation procedure aims to restore a youthful appearance by treating signs of aging, such as wrinkles, sunspots, and sagging skin. Common rejuvenation procedures include non-surgical options like chemical peels, laser skin resurfacing, and dermal fillers, as well as surgical interventions such as facelifts. The best procedure depends on the individual's specific concerns, ranging from minimally invasive to more extensive surgical techniques.",
-      "face-cleaning": "Treatment for dermatosis involves several procedures, including topical corticosteroid creams, regular moisturizing, and identifying/avoiding triggers. Other options include oral medications like antihistamines or antibiotics, and in more severe cases, phototherapy or systemic immunosuppressants. A doctor can provide a specific treatment plan, which may include procedures like laser or surgical removal in certain instances.",
-      "skin-care": "Skin care according to skin type",
-      "royal-care": "Royal Care",
-      "peeling": "Peeling"
+      "face-massage": "Процедурата за подмладяване има за цел да възстанови младежкия вид чрез лечение на признаци на стареене, като бръчки, слънчеви петна и отпусната кожа. Общите процедури за подмладяване включват нехирургични опции като химически пилинг, лазерно обновяване на кожата и дермални филъри, както и хирургични интервенции като лифтинг на лицето. Най-подходящата процедура зависи от конкретните проблеми на пациента и варира от минимално инвазивни до по-обширни хирургични техники.",
+      "face-cleaning": "Лечението на дерматозата включва няколко процедури, включително локални кортикостероидни кремове, редовно овлажняване и идентифициране/избягване на провокиращите фактори. Други опции включват перорални лекарства като антихистамини или антибиотици, а в по-тежки случаи – фототерапия или системни имуносупресанти. Лекарят може да предостави конкретен план за лечение, който в определени случаи може да включва процедури като лазерно или хирургично отстраняване.",
+      "skin-care": "Грижа за кожата според типа кожа",
+      "royal-care": "Кралска грижа",
+      "peeling": "Пилинг"
     },
     "btn": "Book a procedure"
   },
@@ -76,21 +76,22 @@
     "btn": "Записване за обучение"
   },
   "reviews": {
-    "title": "Results and Reviews",
+    "title": "Резултати и ревюта",
     "before-after": {
-      "title": "Before and After Results"
+      "title": "До и после резултати"
     },
     "client-reviews": {
-      "title": "Reviews of the clients",
+      "procedure": "Процедура: ",
+      "title": "Ревю от клиенти",
       "client1": {
         "name": "Mark J. (@MuscleRelief)",
         "procedure": "Deep Tissue Massage",
-        "review": "\"Absolutely fantastic! I've been struggling with chronic shoulder pain, and the therapist applied the perfect pressure. I felt immediate relief and much better mobility the next day. The best deep tissue I've ever had. Highly recommend for athletes or anyone with stubborn knots.\""
+        "review": "\"(Превод от английски) Абсолютно фантастично! Боря се с хронична болка в рамото и терапевтът приложи перфектния натиск. Усетих незабавно облекчение и много по-добра мобилност на следващия ден. Най-добрата дълбокотъканна процедура, която някога съм правил. Горещо препоръчвам на спортисти или всеки, който има упорити възли.\""
       },
       "client2": {
         "name": "Sarah P. (@SpaSeeker_S)",
         "procedure": "Signature Hydrating Facial",
-        "review": "\"My skin was incredibly dry and dull before this treatment. The Hydrating Facial left my complexion glowing and plump! The entire experience was luxurious and relaxing. The aesthetician gave me great tips for my home routine too. My new go-to for skin rejuvenation.\""
+        "review": "\"(Превод от английски) Кожата ми беше невероятно суха и матова преди тази процедура. Хидратиращата процедура за лице остави тена ми сияен и стегнат! Цялото преживяване беше луксозно и релаксиращо. Козметикът ми даде страхотни съвети и за домашната ми рутина. Моят нов избор за подмладяване на кожата.\""
       },
       "client3": {
         "name": "Robert A. (@ZenRob)",
@@ -107,6 +108,52 @@
         "procedure": "Deep Tissue Massage",
         "review": "\"If you need to truly unwind, book the Swedish Massage here. It was the most peaceful and calming hour. The music, the aroma, and the smooth, flowing technique of the therapist made me almost fall asleep! I left feeling completely de-stressed and rejuvenated. 10/10 for pure relaxation.\""
       }
+    }
+  },
+  "form": {
+    "title": "Запишете се за консултация",
+    "name": "Вашето име",
+    "phone": "Номер на телефона (Свързан с Viber, Whatsapp)",
+    "email": "Електронна поща",
+    "placeholder": {
+      "name": "Иван Иванов"
+    },
+    "type": {
+      "title": "Вид консултация",
+      "procedure": "Процедура",
+      "cosmetics": "Подбор на козметични продукти",
+      "courses": "Курсове"
+    },
+    "list": {
+      "title": "Изберете процедурата",
+      "disabled": "Изберете от списъка",
+      "face": "Масаж на лицето",
+      "cleaning": "Почистване на лицето",
+      "care": "Грижа за кожата според типа кожа",
+      "royal": "Кралска грижа",
+      "peeling": "Пилинг"
+    },
+    "additional": "Допълнителни коментари (незадължителни)",
+    "btn": "Изпрати форма",
+    "invalid": {
+      "field": "Моля, попълнете полето.",
+      "email": "Моля, въведете валиден имейл адрес.",
+      "option": "Моля, изберете една от опциите.",
+      "procedure": "Моля, избери процедура."
+    },
+    "request_type_aria": "Вид консултация"
+  },
+  "contacts": {
+    "title": "Контакти",
+    "form": {
+      "title": "Оставете заявка",
+      "btn": "Попълнете формата"
+    },
+    "phone-title": "Обадете се",
+    "social-title": "Напишете",
+    "position": {
+      "title": "Къде са намираме",
+      "address": "България, град София, улица Козлодуй, 110"
     }
   }
 }

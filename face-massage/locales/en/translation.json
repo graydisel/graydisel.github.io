@@ -77,6 +77,7 @@
       "title": "Before and After Results"
     },
     "client-reviews": {
+      "procedure": "Procedure: ",
       "title": "Reviews of the clients",
       "client1": {
         "name": "Mark J. (@MuscleRelief)",
@@ -103,6 +104,52 @@
         "procedure": "Deep Tissue Massage",
         "review": "\"If you need to truly unwind, book the Swedish Massage here. It was the most peaceful and calming hour. The music, the aroma, and the smooth, flowing technique of the therapist made me almost fall asleep! I left feeling completely de-stressed and rejuvenated. 10/10 for pure relaxation.\""
       }
+    }
+  },
+  "form": {
+    "title": "Appoint for consultation",
+    "name": "Your name",
+    "phone": "Phone number (Linked to Viber, WhatsApp)",
+    "email": "Email",
+    "placeholder": {
+      "name": "Ivan Ivanov"
+    },
+    "type": {
+      "title": "Type of consultation",
+      "procedure": "Procedure",
+      "cosmetics": "Selection of cosmetics",
+      "courses": "Courses"
+    },
+    "list": {
+      "title": "Choose the procedure",
+      "disabled": "Choose from the list",
+      "face": "Face massage",
+      "cleaning": "Face cleaning",
+      "care": "Skin care according to skin type",
+      "royal": "Royal care",
+      "peeling": "Peeling"
+    },
+    "additional": "Additional comments (non essential)",
+    "btn": "Send a form",
+    "invalid": {
+      "field": "Please fill in the field.",
+      "email": "Please enter a valid email address.",
+      "option": "Please choose one of the options.",
+      "procedure": "Please select a procedure."
+    },
+    "request_type_aria": "Type of consultation"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "form": {
+      "title": "Leave a application",
+      "btn": "Fill in"
+    },
+    "phone-title": "Call us",
+    "social-title": "Write us",
+    "position": {
+      "title": "Find us",
+      "address": "Bulgaria, Sofia city, Kozloduy street, 110"
     }
   }
 }

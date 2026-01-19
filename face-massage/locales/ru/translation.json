@@ -44,18 +44,18 @@
       "description": "Описание"
     },
     "name": {
-      "face-massage": "Face Massage",
-      "face-cleaning": "Face Cleaning",
-      "skin-care": "Skin care according to skin type",
-      "royal-care": "Royal Care",
-      "peeling": "Peeling"
+      "face-massage": "Массаж лица",
+      "face-cleaning": "Чистка лица",
+      "skin-care": "Уход по типу кожи",
+      "royal-care": "Королевский уход",
+      "peeling": "Пилинг"
     },
     "description": {
-      "face-massage": "A rejuvenation procedure aims to restore a youthful appearance by treating signs of aging, such as wrinkles, sunspots, and sagging skin. Common rejuvenation procedures include non-surgical options like chemical peels, laser skin resurfacing, and dermal fillers, as well as surgical interventions such as facelifts. The best procedure depends on the individual's specific concerns, ranging from minimally invasive to more extensive surgical techniques.",
-      "face-cleaning": "Treatment for dermatosis involves several procedures, including topical corticosteroid creams, regular moisturizing, and identifying/avoiding triggers. Other options include oral medications like antihistamines or antibiotics, and in more severe cases, phototherapy or systemic immunosuppressants. A doctor can provide a specific treatment plan, which may include procedures like laser or surgical removal in certain instances.",
-      "skin-care": "Skin care according to skin type",
-      "royal-care": "Royal Care",
-      "peeling": "Peeling"
+      "face-massage": "Процедура омоложения направлена на восстановление молодого внешнего вида.",
+      "face-cleaning": "Лечение дерматоза включает в себя несколько процедур, в том числе применение местных кортикостероидных кремов.",
+      "skin-care": "Уход по типу кожи",
+      "royal-care": "Королевский уход",
+      "peeling": "Пилинг"
     },
     "btn": "Book a procedure"
   },
@@ -76,15 +76,16 @@
     "btn": "Записаться на обучение"
   },
   "reviews": {
-    "title": "Results and Reviews",
+    "title": "Результаты и отзывы",
     "before-after": {
-      "title": "Before and After Results"
+      "title": "До и После Результаты"
     },
     "client-reviews": {
-      "title": "Reviews of the clients",
+      "procedure": "Процедура: ",
+      "title": "Отзывы клиентов",
       "client1": {
         "name": "Mark J. (@MuscleRelief)",
-        "procedure": "Deep Tissue Massage",
+        "procedure": "Глубокий Массаж",
         "review": "\"Absolutely fantastic! I've been struggling with chronic shoulder pain, and the therapist applied the perfect pressure. I felt immediate relief and much better mobility the next day. The best deep tissue I've ever had. Highly recommend for athletes or anyone with stubborn knots.\""
       },
       "client2": {
@@ -107,6 +108,52 @@
         "procedure": "Deep Tissue Massage",
         "review": "\"If you need to truly unwind, book the Swedish Massage here. It was the most peaceful and calming hour. The music, the aroma, and the smooth, flowing technique of the therapist made me almost fall asleep! I left feeling completely de-stressed and rejuvenated. 10/10 for pure relaxation.\""
       }
+    }
+  },
+  "form": {
+    "title": "Записаться на консультацию",
+    "name": "Ваше имя",
+    "phone": "Номер телефона (Связанный с Viber, Whatsapp)",
+    "email": "Имейл",
+    "placeholder": {
+      "name": "Иван Иванов"
+    },
+    "type": {
+      "title": "Тип консультации",
+      "procedure": "Процедура",
+      "cosmetics": "Подбор косметики",
+      "courses": "Курсы"
+    },
+    "list": {
+      "title": "Выберите процедуру",
+      "disabled": "Выберете из списка",
+      "face": "Массаж лица",
+      "cleaning": "Чистка лица",
+      "care": "Уход по типу кожи",
+      "royal": "Королевский уход",
+      "peeling": "Пилинг"
+    },
+    "additional": "Дополнительный комментарий (необязательно)",
+    "btn": "Отправить заявку",
+    "invalid": {
+      "field": "Заполните пожалуйста это поле.",
+      "email": "Заполните пожалуйста корректный имейл.",
+      "option": "Выберите один из вариантов.",
+      "procedure": "Выберите пожалуйста процедуру."
+    },
+    "request_type_aria": "Тип консультации"
+  },
+  "contacts": {
+    "title": "Контакты",
+    "form": {
+      "title": "Оставить заявку",
+      "btn": "Заполнить"
+    },
+    "phone-title": "Позвонить по номеру",
+    "social-title": "Написать мне",
+    "position": {
+      "title": "Где мы находимся",
+      "address": "Болгария, София, улица Козлодуй, 110"
     }
   }
 }
