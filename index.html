@@ -1,28 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>My name is Sergii Babanenkov. Welcome to my portfolio.</h1>
-    <ul class="portfolio-list">
-      <li><a href="face-massage/index.html" target="_blank">Face Massage</a> </li>
-      <li><a href="mini-form/index.html" target="_blank">Mini Form</a> </li>
-      <li><a href="lokalise/index.html" target="_blank">Lokalise</a> </li>
-      <li><a href="e_store/index.html" target="_blank">Electronic store</a> </li>
-      <li><a href="news-journal/index.html" target="_blank">News Journal</a></li>
-      <li><a href="project/index.html" target="_blank">Project</a> </li>
-      <li><a href="css_ad/index.html" target="_blank">Animated ad</a> </li>
-      <li><a href="clothes/index.html" target="_blank">Clothes</a> </li>
-      <li><a href="Slider/index.html" target="_blank">Slider</a> </li>
-      <li><a href="weather_widget/index.html" target="_blank">Weather widget</a> </li>
-      <li><a href="omdb_search/index.html" target="_blank">OMDb Search</a> </li>
-      <li><a href="to-do-list/index.html" target="_blank">To Do List</a></li>
-      <li><a href="table_mondrian/index.html" target="_blank">Table Mondrian</a> </li>
-      <li><a href="mondrian_grid/index.html" target="_blank">Mondrian Grid</a> </li>
-    </ul>
-  </body>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sergii Babanenkov | Full-Stack Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="hero-section text-center">
+  <div class="container">
+    <img src="./assets/images/main_photo.jpg" alt="Sergii Babanenkov photo" class="profile-img mb-4">
+    <h1 class="display-5 fw-bold mb-2">Sergii Babanenkov</h1>
+    <p class="text-uppercase tracking-widest text-primary fw-semibold mb-3">Full-Stack Developer</p>
+
+    <div class="social-links mb-4">
+      <a href="https://github.com/graydisel" target="_blank" class="mx-2" title="GitHub">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/sergii-babanenkov-062a9533b/" target="_blank" class="mx-2" title="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://wa.me/380951197944" target="_blank" class="mx-2" title="Whatsapp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://t.me/YaBabanchik" target="_blank" class="mx-2" title="Telegram">
+        <i class="bi bi-telegram"></i>
+      </a>
+      <div class="mt-4">
+        <a href="./assets/files/Babanenkov_Sergii.pdf" download class="btn btn-outline-primary btn-cv px-4 py-2 rounded-pill fw-bold fs-6">
+          <i class="bi bi-file-earmark-arrow-down me-2"></i>Download CV
+        </a>
+      </div>
+    </div>
+
+    <div class="header-line"></div>
+  </div>
+</header>
+
+<section class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <h2 class="mb-4">About Me</h2>
+      <p class="lead text-secondary">
+        I’m a motivated and detail-oriented Full-Stack Developer with strong skills in:
+        <span class="text-dark fw-bold">HTML, CSS, Node.js and MongoDB</span>.
+      </p>
+      <p class="lead text-secondary">
+        Libraries, Frameworks & Tools:
+        <span class="text-dark fw-bold">Bootstrap, Tailwind, Sass, React.js, Express, Webpack and Docker</span>.
+      </p>
+      <p>
+        I’ve recently completed a Full-Stack Development course and continue to expand my knowledge every day.
+        I may be at the beginning of my professional journey, but I’m highly motivated to grow,
+        learn new technologies, and deliver high-quality results.
+      </p>
+
+      <div class="mt-4 p-3 bg-white shadow-sm rounded-pill d-inline-block border">
+        <span class="spinner-grow spinner-grow-sm text-warning" role="status"></span>
+        <span class="ms-2 fw-bold">Currently learning:</span> <span class="text-primary">Java</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="container my-5 opacity-25">
+
+<main class="container my-5">
+  <h3 class="text-center mb-5">Selected Projects</h3>
+  <div class="row g-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="face-massage/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">💆‍♂️</span>
+            <h5 class="card-title mb-0">Face Massage</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="mini-form/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">📝</span>
+            <h5 class="card-title mb-0">Mini Form</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="lokalise/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">🌐</span>
+            <h5 class="card-title mb-0">Lokalise</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="e_store/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">🛒</span>
+            <h5 class="card-title mb-0">Electronic Store</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="news-journal/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">📰</span>
+            <h5 class="card-title mb-0">News Journal</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="project/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">🚀</span>
+            <h5 class="card-title mb-0">Project</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="css_ad/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">📽️</span>
+            <h5 class="card-title mb-0">Animated Ad</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="clothes/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">👕</span>
+            <h5 class="card-title mb-0">Clothes Store</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="Slider/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">🖼️</span>
+            <h5 class="card-title mb-0">Slider</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="weather_widget/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">☁️</span>
+            <h5 class="card-title mb-0">Weather Widget</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="omdb_search/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">🎬</span>
+            <h5 class="card-title mb-0">OMDb Search</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="to-do-list/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">✅</span>
+            <h5 class="card-title mb-0">To Do List</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="table_mondrian/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">🎨</span>
+            <h5 class="card-title mb-0">Table Mondrian</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="mondrian_grid/index.html" target="_blank" class="project-card">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex align-items-center">
+            <span class="project-icon">🏁</span>
+            <h5 class="card-title mb-0">Mondrian Grid</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</main>
+
+<footer class="text-center py-4 text-muted">
+  <p>&copy; 2026 Sergii Babanenkov. All rights reserved.</p>
+</footer>
+
+</body>
 </html>

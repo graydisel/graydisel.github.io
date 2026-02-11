@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #0077ff;
+    --dark-blue: #203e60;
+    --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-gradient);
+    min-height: 100vh;
+    color: #333;
+}
+
+.hero-section {
+    padding: 80px 0 40px;
+    background: white;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.btn-cv {
+    border-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.btn-cv:hover {
+    background-color: var(--primary-color);
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 119, 255, 0.3);
+}
+
+.lead {
+    margin-bottom: 1.5rem;
+}
+
+.header-line {
+    width: 60px;
+    height: 4px;
+    background: var(--primary-color);
+    margin: 20px auto;
+    border-radius: 2px;
+}
+
+.project-card {
+    text-decoration: none !important;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card .card {
+    border-radius: 12px;
+    transition: background 0.3s ease;
+}
+
+.project-card:hover .card {
+    background-color: #f8fbff;
+    box-shadow: 0 15px 30px rgba(0,119,255,0.1) !important;
+}
+
+.project-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    background: #eef5ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--dark-blue);
+}
+
+.social-links a {
+    font-size: 1.6rem;
+    color: #6c757d;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+.social-links a:hover .bi-github { color: #24292e; }
+.social-links a:hover .bi-linkedin { color: #0077b5; }
+.social-links a:hover .bi-whatsapp { color: #126c00; }
+.social-links a:hover .bi-telegram { color: #0088cc; }
+
+footer .social-links a {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 0 20px;
+    }
+    .display-4 {
+        font-size: 2rem;
+    }
+}
